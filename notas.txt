@@ -1,0 +1,35 @@
+
+¡Claro! Aquí tienes la paleta de colores utilizada en el código CSS que compartiste, junto con una pequeña descripción:
+
+Paleta de Colores:
+Color Primario (--primary-color):
+
+#3498db (Un azul brillante y atractivo).
+Color Secundario (--secondary-color):
+
+#2c3e50 (Un tono oscuro de azul-gris).
+Color de Acento (--accent-color):
+
+#e74c3c (Rojo brillante, usado para resaltar).
+Color de Fondo (--background-color):
+
+#ecf0f1 (Un gris claro, limpio y suave).
+Color de Texto (--text-color):
+
+#34495e (Un gris oscuro, fácil de leer).
+Fondo de Tarjetas (--card-background):
+
+#ffffff (Blanco puro, para contrastar con los fondos oscuros y resaltar contenido).
+Colores del Tema Oscuro (cuando se activa el "dark theme"):
+Fondo (--background-color):
+
+#2c3e50 (Un gris oscuro, ideal para fondos oscuros).
+Texto (--text-color):
+
+#ecf0f1 (Color claro para texto en modo oscuro).
+Fondo de Tarjetas (--card-background):
+
+#34495e (Tono gris oscuro para las tarjetas).
+Color Secundario (--secondary-color):
+
+#ecf0f1 (Claro para contrastar con el fondo oscuro).

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Ingeniero en Sistemas y Computación</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="mobile-nav-toggle">
+                <button id="menu-toggle" aria-label="Menu principal">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav id="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <!-- Enlaces sociales solo visibles en móvil -->
+                    <li class="mobile-social-links">
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" aria-label="Cambiar tema">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Portafolio Miguel Ayala</h1>
+            <p>Ingeniero en Sistemas y Computación especializado en Ciberseguridad y Desarrollo de Sistemas</p>
+            <img src="img/Yo.png" alt="Tu Nombre" class="profile-image">
+        </section>
+
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Soy un Ingeniero en Sistemas y Computación apasionado por la ciberseguridad y el desarrollo de sistemas innovadores.</p>
+            <h3>Objetivos</h3>
+            <ul>
+                <li>Especializarme en ciberseguridad avanzada</li>
+                <li>Desarrollar sistemas robustos y seguros</li>
+                <li>Contribuir a proyectos de Industria 4.0 e IoT</li>
+            </ul>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Lenguajes de Programación</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks y Librerías</h3>
+                    <ul>
+                        <li>React</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Herramientas y Tecnologías</h3>
+                    <ul>
+                        <li>Firebase</li>
+                        <li>Nmap</li>
+                        <li>Kali Linux</li>
+                        <li>ESP32</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <img src="proyecto1.jpg" alt="Sistema de Finanzas Personales">
+                    <h3>Sistema de Finanzas Personales</h3>
+                    <p>Integración con tecnologías de Industria 4.0 para gestión financiera personal.</p>
+                </div>
+                <div class="project-card">
+                    <img src="proyecto2.jpg" alt="Aplicación en React">
+                    <h3>Aplicación en React</h3>
+                    <p>Mi primer proyecto utilizando React y Node.js para crear una aplicación web dinámica.</p>
+                </div>
+                <div class="project-card">
+                    <img src="proyecto3.jpg" alt="Proyecto IoT con ESP32">
+                    <h3>Proyecto IoT con ESP32</h3>
+                    <p>Desarrollo de un sistema IoT utilizando ESP32 para monitoreo y control remoto.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Blog / Aprendizaje</h2>
+            <article>
+                <h3>Introducción a Herramientas de Ciberseguridad</h3>
+                <p>Explorando las funcionalidades básicas de Nmap y Kali Linux para análisis de seguridad.</p>
+            </article>
+            <article>
+                <h3>Mi Experiencia con React</h3>
+                <p>Lecciones aprendidas y mejores prácticas en el desarrollo de aplicaciones con React.</p>
+            </article>
+            <article>
+                <h3>Tips para Desarrollo Eficiente</h3>
+                <p>Consejos prácticos para mejorar la productividad en el desarrollo de software.</p>
+            </article>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                <input type="email" id="email" name="email" placeholder="Correo Electrónico" required>
+                <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/miguel4y4l4" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Miguel Angel Ayala Leiva. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
